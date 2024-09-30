@@ -1,0 +1,21 @@
+19:57:34 **** Incremental Build of configuration debug for project LAN-Network-Data-Link-Layer-Simulation ****
+make MODE=debug all 
+cd src && /usr/bin/make
+make[1]: Entering directory '/b/Coding Stuffs/cn cp/LAN-Network-Data-Link-Layer-Simulation/src'
+Creating executable: ../out/clang-debug/src/LAN-Network-Data-Link-Layer-Simulation_dbg.exe
+ld.lld: error: undefined symbol: Frame::Frame(char const*, short)
+>>> referenced by Hub.cc:9
+>>>               ../out/clang-debug/src/Hub.o:(Hub::initialize())
+>>> referenced by Hub.cc:41
+>>>               ../out/clang-debug/src/Hub.o:(Hub::handleMessage(omnetpp::cMessage*))
+>>> referenced by Node.cc:47
+>>>               ../out/clang-debug/src/Node.o:(Node::handleMessage(omnetpp::cMessage*))
+>>> referenced 2 more times
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [Makefile:98: ../out/clang-debug/src/LAN-Network-Data-Link-Layer-Simulation_dbg.exe] Error 1
+make[1]: Leaving directory '/b/Coding Stuffs/cn cp/LAN-Network-Data-Link-Layer-Simulation/src'
+make: *** [Makefile:2: all] Error 2
+"make MODE=debug all" terminated with exit code 2. Build might be incomplete.
+
+19:58:01 Build Failed. 2 errors, 0 warnings. (took 27s.72ms)
+

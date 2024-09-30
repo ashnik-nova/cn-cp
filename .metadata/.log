@@ -1,0 +1,2438 @@
+!SESSION 2024-09-17 08:39:51.026 -----------------------------------------------
+eclipse.buildId=6.0.3.240223-17fcae5ef3
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ecf.provider.filetransfer.httpclient5.win32 4 0 2024-09-17 08:39:52.115
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.ecf.provider.filetransfer.httpclient5.win32 [163]
+  Unresolved requirement: Import-Package: org.apache.hc.client5.http.impl.win; version="[5.1.3,6.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.epp.mpc.core.win32 4 0 2024-09-17 08:39:52.261
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.epp.mpc.core.win32 [188]
+  Unresolved requirement: Import-Package: org.apache.hc.client5.http.impl.win; version="[5.1.0,5.3.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.omnetpp.main 1 0 2024-09-17 08:40:07.348
+!MESSAGE OMNeT++ IDE 6.0.3.240223-17fcae5ef3 started.
+
+!ENTRY org.python.pydev.shared_core 1 1 2024-09-17 08:40:09.891
+!MESSAGE Restoring info for: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe
+!STACK 0
+java.lang.RuntimeException: Restoring info for: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:458)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:284)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:581)
+	at org.omnetpp.scave.ScavePlugin.ensurePyDevInterpreterConfigured(ScavePlugin.java:139)
+	at org.omnetpp.scave.ScavePlugin.start(ScavePlugin.java:62)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.omnetpp.ide.OmnetppStartup.earlyStartup(OmnetppStartup.java:88)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Expecting: B:\Coding Stuffs\cn cp\.metadata\.plugins\org.python.pydev\v1_4wdkbtmpah0vyixajloff0a95\modulesKeys to exist (and be a file).
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:342)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.load(SystemModulesManager.java:422)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:456)
+	... 29 more
+
+!ENTRY org.python.pydev.shared_core 1 1 2024-09-17 08:40:10.297
+!MESSAGE Finished restoring information for: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe at: B:\Coding Stuffs\cn cp\.metadata\.plugins\org.python.pydev\v1_4wdkbtmpah0vyixajloff0a95
+!STACK 0
+java.lang.RuntimeException: Finished restoring information for: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe at: B:\Coding Stuffs\cn cp\.metadata\.plugins\org.python.pydev\v1_4wdkbtmpah0vyixajloff0a95
+	at org.python.pydev.core.log.Log.logInfo(Log.java:45)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:503)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:284)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:581)
+	at org.omnetpp.scave.ScavePlugin.ensurePyDevInterpreterConfigured(ScavePlugin.java:139)
+	at org.omnetpp.scave.ScavePlugin.start(ScavePlugin.java:62)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.omnetpp.ide.OmnetppStartup.earlyStartup(OmnetppStartup.java:88)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-09-17 08:41:05.340
+!MESSAGE Indexed 'LAN-Network-Data-Link-Layer-Simulation' (3 sources, 547 headers) in 18.1 sec: 85,268 declarations; 158,854 references; 0 unresolved inclusions; 4 syntax errors; 165 unresolved names (0.068%)
+
+!ENTRY org.eclipse.core.expressions 4 201 2024-09-17 09:00:21.084
+!MESSAGE No property tester contributes a property org.eclipse.core.resources.projectNature to type class org.eclipse.cdt.internal.core.model.SourceRoot
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.core.resources.projectNature to type class org.eclipse.cdt.internal.core.model.SourceRoot
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:132)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:228)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:246)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:106)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:147)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:128)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:259)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5141)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4773)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2305)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4112)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3653)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2024-09-17 09:00:21.084
+!MESSAGE No property tester contributes a property org.eclipse.core.resources.projectNature to type class org.eclipse.cdt.internal.core.model.SourceRoot
+
+!ENTRY org.eclipse.core.expressions 4 201 2024-09-17 09:23:47.923
+!MESSAGE No property tester contributes a property org.eclipse.core.resources.projectNature to type class org.eclipse.cdt.internal.core.model.SourceRoot
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.core.resources.projectNature to type class org.eclipse.cdt.internal.core.model.SourceRoot
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:132)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:228)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:246)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:106)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:147)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:128)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:259)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5141)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4773)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2305)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4112)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3653)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2024-09-17 09:23:47.924
+!MESSAGE No property tester contributes a property org.eclipse.core.resources.projectNature to type class org.eclipse.cdt.internal.core.model.SourceRoot
+!SESSION 2024-09-30 19:56:56.947 -----------------------------------------------
+eclipse.buildId=6.0.3.240223-17fcae5ef3
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ecf.provider.filetransfer.httpclient5.win32 4 0 2024-09-30 19:56:58.363
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.ecf.provider.filetransfer.httpclient5.win32 [163]
+  Unresolved requirement: Import-Package: org.apache.hc.client5.http.impl.win; version="[5.1.3,6.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.epp.mpc.core.win32 4 0 2024-09-30 19:56:58.510
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.epp.mpc.core.win32 [188]
+  Unresolved requirement: Import-Package: org.apache.hc.client5.http.impl.win; version="[5.1.0,5.3.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.omnetpp.main 1 0 2024-09-30 19:57:08.099
+!MESSAGE OMNeT++ IDE 6.0.3.240223-17fcae5ef3 started.
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 19:57:43.731
+!MESSAGE Info: Rebuilding internal caches: B:\Coding Stuffs\cn cp\.metadata\.plugins\com.python.pydev.analysis\python_v1_4wdkbtmpah0vyixajloff0a95\python.pydevsysteminfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 19:57:57.929
+!MESSAGE The python client still hasn't connected back to the eclipse java vm (will retry...)
+!STACK 0
+java.lang.RuntimeException: The python client still hasn't connected back to the eclipse java vm (will retry...)
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.startIt(AbstractShell.java:331)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:240)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:168)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getServerShell(AbstractShell.java:219)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:377)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:349)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:395)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 19:58:02.963
+!MESSAGE Attempt: 2 of 5 failed, trying again...(socket connected: still null)
+!STACK 0
+java.lang.RuntimeException: Attempt: 2 of 5 failed, trying again...(socket connected: still null)
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.startIt(AbstractShell.java:350)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:240)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:168)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getServerShell(AbstractShell.java:219)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:377)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:349)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:395)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 19:58:08.979
+!MESSAGE Attempt: 3 of 5 failed, trying again...(socket connected: still null)
+!STACK 0
+java.lang.RuntimeException: Attempt: 3 of 5 failed, trying again...(socket connected: still null)
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.startIt(AbstractShell.java:350)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:240)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:168)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getServerShell(AbstractShell.java:219)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:377)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:349)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:395)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 19:58:15.005
+!MESSAGE Attempt: 4 of 5 failed, trying again...(socket connected: still null)
+!STACK 0
+java.lang.RuntimeException: Attempt: 4 of 5 failed, trying again...(socket connected: still null)
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.startIt(AbstractShell.java:350)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:240)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:168)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getServerShell(AbstractShell.java:219)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:377)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:349)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:395)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 19:59:11.440
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:matplotlib._c_internal_utils
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55687
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:1038)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:869)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:400)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 19:59:20.671
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:matplotlib._contour
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55693
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:1038)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:869)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:400)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 19:59:29.902
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:matplotlib._image
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55698
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:1038)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:869)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:400)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 19:59:57.233
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:pandas._libs.json
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55705
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:1038)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:869)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:400)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 20:00:06.520
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:pandas.io.sas._sas
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55730
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:1038)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:869)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:400)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 20:00:15.805
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:scipy
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55738
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:349)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:395)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 20:00:30.489
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:scipy.cluster._hierarchy
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55740
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:369)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:395)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 20:00:39.754
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:scipy.cluster._hierarchy
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55745
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:1038)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:869)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:400)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 20:00:49.017
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:scipy.cluster._optimal_leaf_ordering
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55747
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:369)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:395)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 20:00:58.274
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:scipy.cluster._optimal_leaf_ordering
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55749
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:1038)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:869)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:400)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 20:01:09.820
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:scipy.integrate._dop
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55751
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:369)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:395)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 20:01:19.089
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:scipy.integrate._dop
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55767
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:1038)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:869)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:400)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 20:01:57.914
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:scipy.signal._peak_finding_utils
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55769
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:369)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:395)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 20:02:07.178
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:scipy.signal._peak_finding_utils
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55771
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:1038)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:869)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:400)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-09-30 20:02:16.433
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:scipy.signal._sigtools
+END@@
+
+ProcessInfo:
+
+ - Executed: B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin\python3.exe -u B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pycompletionserver.py 55776
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\aclocal;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\aclocal
+ACSVCPORT=17532
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Ashish Nikam\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=133683804433043818
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ASHNIK
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_14672=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=B:\Omnet++\omnetpp-6.0.3\
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ashish Nikam
+HOSTNAME=Ashnik
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcP2cqeW870muMs4ocC6k+AQAAAACAAAAAAAQZgAAAAEAACAAAAAmtjAmifK580sEC42p7GW7nynqXrIU6oaGEqeAv0r2FwAAAAAOgAAAAAIAACAAAAAVswj0r8sPT68MxMzc8relYB/cyZd/DLOPF7PfVSzl/GAAAABrWyTCGuTCynemJg5uSFFmiMrUYUn5EuT8db2qrWC8IaK2it9W6Z1ZtMoHExVAcmX47SsAQ1Dj6BtheXw8tEpvEEbzIV3P22ryJFLBiK3X9Bx06ydf2YA8dkoAbtxWabFAAAAAZLU6NyvJ/14TCgKe8dBA/u/QtO2/++Ow9mR+rGdAwX3gp+c9lMcrYTflkZoq6tce2TqbXV6y1y3yeCNfnHxY8w==
+INFOPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\info;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\info
+INTELLIJ IDEA COMMUNITY EDITION=B:\Coding Tools All\Java\IntelliJ IDEA Community Edition 2024.2.0.2\bin;
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LOCALAPPDATA=C:\Users\Ashish Nikam\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\ASHNIK
+MANPATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\man;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=B:/Omnet++/omnetpp-6.0.3
+OMNETPP_IMAGE_PATH=B:/Omnet++/omnetpp-6.0.3/images
+OMNETPP_RELEASE=omnetpp-6.0.3
+ONEDRIVE=C:\Users\Ashish Nikam\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/ASHISH~1/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/ASHISH~1/AppData/Local/Temp
+OS=Windows_NT
+PATH=B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;B:/Omnet++/omnetpp-6.0.3/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;B:\Omnet++\omnetpp-6.0.3\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\opt\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\site_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\vendor_perl;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\core_perl;B:\Omnet++\omnetpp-6.0.3;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PKG_CONFIG_PATH=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\lib\pkgconfig;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9a03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=B:/Omnet++/omnetpp-6.0.3
+PYTHONPATH=B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc\pydev_sitecustomize;B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.omnetpp.scave.pychart_6.0.3.240223-17fcae5ef3\python;B:/Omnet++/omnetpp-6.0.3/python;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;B:/Omnet++/omnetpp-6.0.3;B:/Omnet++/omnetpp-6.0.3/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.debug=false;qt.qpa.*=false
+QT_SELECT=5
+RLSSVCPORT=22112
+SESSIONNAME=Console
+SHELL=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\tmp
+USER=Ashish Nikam
+USERDOMAIN=ASHNIK
+USERDOMAIN_ROAMINGPROFILE=ASHNIK
+USERNAME=Ashish Nikam
+USERPROFILE=C:\Users\Ashish Nikam
+WD=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\mingw64\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\local\share\;B:\Omnet++\omnetpp-6.0.3\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=B:/Omnet++/omnetpp-6.0.3/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=B:/Omnet++/omnetpp-6.0.3
+
+ - Working Dir:
+B:\Omnet++\omnetpp-6.0.3\ide\plugins\org.python.pydev.core_11.0.3.202310301107\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:369)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:395)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

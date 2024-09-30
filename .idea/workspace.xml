@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d26dc876-72f3-4d73-a5ef-f37e45369da9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/.settings/language.settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/.last-copts" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/.last-copts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Hub.o" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Hub.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Hub.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Hub.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Node.o" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Node.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Node.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Node.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Project_dbg.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Reciever.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Reciever.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Sender.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/Sender.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/frame_m.o" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/frame_m.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/frame_m.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/out/clang-debug/src/frame_m.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/Hub.cc" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/Hub.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/Node.cc" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/Node.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/Node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/Project_dbg.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/frame_m.cc" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/frame_m.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/frame_m.h" beforeDir="false" afterPath="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation/src/frame_m.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/LAN-Network-Data-Link-Layer-Simulation" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2mdzpRfDrGIX4rlbeX3YGhXc40l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "B:/Coding Stuffs/CN lab"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d26dc876-72f3-4d73-a5ef-f37e45369da9" name="Changes" comment="" />
+      <created>1727421423301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727421423301</updated>
+    </task>
+    <servers />
+  </component>
+</project>
